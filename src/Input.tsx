@@ -8,8 +8,7 @@ const Input = React.forwardRef<HTMLInputElement, IProps>(
   ({ labelText, className, error, ...props }, ref) => {
     return (
       <>
-     <div className="w-full and when focused do something speciak"></div>
-      <div className="w-full and something special"></div>
+         
         <div
           className={`${className} ${
             error && "animate-shake"
